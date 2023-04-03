@@ -1,0 +1,141 @@
+/*fonts and colors*/
+
+body{
+	background-color: rgba(217, 219, 241, 0.5);
+	color:#414066 ;
+	font-family: 'Merriweather', serif, lighter;
+	font-weight: 500;
+	font-size:16;
+	align-content: center;
+}
+
+@media{
+	#container{
+	width:450px;
+	margin: 20px auto;}
+}
+@media (max width:450px){
+	#container{
+	width:350px;
+	margin: 20px auto;}
+}
+
+h1,h2,h3{
+	color: #26547C;
+	font-family: 'Libre Baskerville', serif;
+	font-weight: 800;
+	}
+
+h1{
+	font-size: 32;
+	text-align: center;
+}
+
+h2{
+	font-size: 28;
+}
+
+h3{
+	font-size: 24;
+}
+
+a{
+	color: #82816D;
+	font-weight: 500;
+
+}
+
+a:hover{
+	color: #CEFF1A;
+}
+
+img{
+	border-radius: 50%;
+	box-shadow: 4px 4px 5px rgba(229, 229, 229, 1);
+}
+
+p{text-align:justify }
+
+ul{list-style-type: none;
+	display: inline-block;
+	}
+/*custom design with class and id*/
+
+#profilepic-circle{
+	width:500;
+}
+
+#title-boxalign{
+	align-content: center;
+	text-align: center;
+	padding: 15px 15px 15px 15px;
+	width: 520px;     
+	margin: 0px auto;
+	margin-bottom: 30px;
+	background-color: rgba(217, 219, 241, 0.9);
+	border-radius: 10px;
+	border: 1px solid rgba(130, 129, 109, 0.9);
+	box-shadow: 4px 4px 5px rgba(200, 200, 200, 0.9);
+}
+
+#image-boxalign{
+	align-content: center;
+	padding: 15px;
+	width: 520px;     
+	margin: 0px auto;
+	margin-bottom: 30px;
+	background-color: rgba(217, 219, 241, 0.9);
+	border-radius: 10px;
+	border: 1px solid rgba(130, 129, 109, 0.9);
+	box-shadow: 4px 4px 5px rgba(200, 200, 200, 0.9);
+}
+
+.paragraph-boxalign{
+	text-align: center;
+	padding: 15px;    
+	width: 520px;
+	margin: 0px auto;
+	margin-bottom: 30px;
+	background-color: rgba(217, 219, 241, 0.9);
+	border-radius: 10px;
+	box-shadow: 4px 4px 5px rgba(200, 200, 200, 0.9);
+	border: 1px solid rgba(130, 129, 109, 0.9);}
+
+
+.sp-boxalign{
+	align-content: center;
+	margin: 12px 10px;
+	padding: 1px 10px;
+	background-color: rgba(217, 219, 241, 1);
+	border-radius: 10px;
+	border: 1px solid rgba(130, 129, 109, 0.9);
+	box-shadow: 4px 4px 5px rgba(200, 200, 200, 0.9);
+}
+
+.btn{
+	color: #82816D;
+	background-color: #CEFF1A;
+	padding: 15px;
+	border-radius: 10px;
+}
+.btn:hover{
+	background-color:#26547C ;
+	color: #CEFF1A;
+}
+
+.list-hori{
+	list-style: none;
+	padding-left: 0px;
+	align-content: ;
+
+}
+
+.list-hori .btn{
+	display: inline;
+	padding: 40px 10px 10px 10px;
+	margin: 20px;
+}
+
+.list-hori i{
+	font-size: 50px;
+}
